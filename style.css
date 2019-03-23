@@ -1,0 +1,116 @@
+*   {    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body   {
+    text-rendering: optimizeLegibility;
+    font-family: 'Open Sans', sans-serif;
+}
+body    {
+    background-color: #00031f;   
+    font-size: 12pt;
+}
+ul  {
+    list-style-type: disc;
+}   
+.main-header    {    
+    background-image: url("img/food_pix.jpg");
+    background-size: cover;   
+    width: auto;
+    height: 600px; 
+}
+.container  {
+    max-width: 1100px;
+    margin: 0 auto;
+    /* padding: 10px 30px; */
+}
+.bkg-white  {
+    background-color: white;
+    z-index: 1;
+    margin-top: -300px;
+}
+.nav ul{
+    margin: 0 auto;
+    padding-top: 3%;
+    text-align: right;
+}
+
+.nav li {
+    display: inline;
+    padding: 0 2%;
+}
+.nav li:last-child  {
+    padding: 0px;
+}
+.nav a  {
+    text-decoration: none;
+    color: white;
+}
+.nav a:hover    {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.btn    {
+    border: 1px solid rgb(89, 85, 95);
+    padding: 7px 15px;
+    cursor: pointer;
+}
+.name-large {
+    text-align: center;
+    font-weight: bolder;
+    font-size:3.2em;
+    color: white;
+    margin-top: 10%;
+    margin-bottom:3px;
+}
+.name-small {
+    text-align: center;
+    font-weight: 400;
+    font-size:1em;
+    color: white;
+    /* margin-top: 10%;
+    margin-bottom:3px; */
+}
+
+.left-box   {
+    width: 35%;
+    float: left;
+    line-height: 2.5;
+    color: #040931;
+    padding: 30px;
+}
+.left-box li{
+    list-style: none;
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+.left-box   h5  {
+    color: dimgrey;
+    letter-spacing: 3.5px;
+}
+.right-box  {
+    width: 65%;
+    float: left;
+    border-left: 1px solid rgb(199, 199, 199);
+    line-height: 2.5;
+    color: #040931;
+    padding: 30px 20px 30px 40px;
+}
+.right-box   h5  {
+    color: dimgrey;
+    letter-spacing: 3.5px;
+}
+.right-box   h3  {
+    color: dimgrey;
+}
+.clearfix::after    {
+    content: "";
+    display: table;
+    clear: both;    
+}
+footer  {
+    background-color: #040931;
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+}
